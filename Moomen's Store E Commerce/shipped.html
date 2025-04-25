@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <link rel="stylesheet" href="bootstrap.css" />
+  <title>Moomen's Clothes Store </title>
+    <link rel="icon" href="images/logo2.jpg">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    .loading-screen, .main-content {
+      height: 100vh;
+    }
+    .main-content {
+      
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+
+<body onload="showAnimation()">
+
+ 
+  <div class="main-content d-flex flex-column justify-content-center align-items-center text-white gap-4" style="display: none;">
+    
+<dotlottie-player class="loader" src="https://lottie.host/b87ddd2e-cfdd-413a-8470-581506465768/HS4cDof48g.lottie" background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+   
+    <h1 class="h1 mt-5" style="border-radius: 50px; display: none;   text-shadow:-1px -1px 0 black, 1px -1px 0 black, -1px  1px 0 black, 1px  1px 0 black; ">Your Order Has been Delivered Successfully 👍</h1>
+    <h3 class="h3" style="display: none;">Wait for Further Information </h3>
+    <a class="btn" href="home.html" style="display: none; background-color: #a26732;">Go to Home</a>
+   
+    <dotlottie-player
+    class="animation_logo"
+  src="https://lottie.host/5cc72968-0768-4129-9f82-afceb0f0d574/NTTcluO1WB.lottie"
+  background="transparent"
+  speed="1"
+  style="width: 300px; height: 300px;display: none;"
+  loop
+  autoplay
+></dotlottie-player>
+  </div>
+
+ 
+  <script type="module" src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+  <script>
+    function showAnimation() {
+      setTimeout(() => {
+       let animationloading = document.querySelector('.loader');
+        animationloading.style.display = 'none';
+        console.log('Animation hidden');
+        console.log(animationloading.style.display);
+        
+        // Show the main content with animation 
+        let mainContent = document.querySelector('.main-content');
+        mainContent.style.display = 'flex';
+        mainContent.style.backgroundImage = "url('images/background.png')";
+        let h1 = document.querySelector('.h1');
+        let h3 = document.querySelector('.h3');
+        let animationLogo = document.querySelector('.animation_logo');
+        animationLogo.style.display = 'block';
+        animationLogo.classList.add('animate__animated', 'animate__fadeInDown');
+        h1.style.display = 'block';
+        h3.style.display = 'block';
+        h1.classList.add('animate__animated', 'animate__fadeInDown');
+        h3.classList.add('animate__animated', 'animate__fadeInUp');
+        let a = document.querySelector('a');
+        a.style.display = 'block';
+        a.classList.add('animate__animated', 'animate__fadeInUp');
+        a.style.animationDelay = '0.5s';
+        a.style.animationDuration = '1s';
+        a.style.animationFillMode = 'forwards';
+
+      }, 4510);
+      
+    }
+  </script>
+
+</body>
+</html>

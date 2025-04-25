@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moomen's Clothes Store </title>
+    <link rel="icon" href="images/logo2.jpg">
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link href="https://unpkg.com/ionicons@5.5.0/dist/css/ionicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <div id="main-section" class="container  d-flex justify-content-center align-items-center my-5">
+        <!-- Products will be loaded dynamically here -->
+    </div>
+    <div id="main-section">
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="card h-100 d-flex flex-column" style="width: 180%;">
+              <img id="image"
+                src=""
+                class="card-img-top"
+                alt="Product Name"
+                style="height: 200px; object-fit: contain;"
+              />
+              <div class="card-body d-flex flex-column px-5">
+                
+                <h5 id="h2" class="card-title fw-bold">Product Name</h5>
+                <p id="description" class="card-text flex-grow-1">Product Description goes here...</p>
+
+<div class="justify-content-between align-items-center d-flex mb-3">
+    <p id="price" class="text-primary fw-semibold">Price: 300 EGP</p>
+    <div class="d-flex align-items-center gap-2">
+        <a id="minus" class="px-2"><i class="bi bi-cart-dash fs-5" style="color:#78675B"></i></a>
+
+        <span id="span" class="px-2 fs-5"> 1 </span>
+    
+        <a id="plus" class="px-2"><i class="bi bi-cart-plus fs-4" style="color:#78675B"></i></a>
+    </div>
+    
+
+
+</div>
+                <a id="buynow" class="btn card1 mt-auto">Add To Cart</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+    <script src="details.js"></script>
+</body>
+</html>

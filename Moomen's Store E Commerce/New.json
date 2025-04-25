@@ -1,0 +1,306 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Men's Cotton T-Shirt",
+      "category": "Men",
+      "price": 89.99,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["White", "Black", "Gray"],
+      "image": "images/Men's Cotton T-Shirt.jpg",
+      "description": "Comfortable 100% cotton t-shirt, perfect for everyday wear."
+    },
+    {
+      "id": 2,
+      "name": "Women's Summer Dress",
+      "category": "Women",
+      "price": 149.00,
+      "sizes": ["S", "M", "L"],
+      "colors": ["Blue", "Pink", "Yellow"],
+      "image": "images/Women's Summer Dress.jpg",
+      "description": "Light and elegant dress, perfect for summer outings."
+    },
+    {
+      "id": 3,
+      "name": "Unisex Winter Hoodie",
+      "category": "Unisex",
+      "price": 199.50,
+      "sizes": ["M", "L", "XL", "XXL"],
+      "colors": ["Black", "Red", "Navy"],
+      "image": "images/Unisex Winter Hoodie.jpg",
+      "description": "Warm hoodie made of heavy fabric, ideal for cold weather."
+    },
+    {
+      "id": 4,
+      "name": "Classic Jeans",
+      "category": "Men",
+      "price": 129.99,
+      "sizes": [30, 32, 34, 36],
+      "colors": ["Dark Blue", "Black"],
+      "image": "images/Classic Jeans.jpg",
+      "description": "Stylish, high-quality classic jeans for all occasions."
+    },
+    {
+      "id": 5,
+      "name": "Soft Chiffon Hijab",
+      "category": "Women",
+      "price": 59.00,
+      "sizes": ["One Size"],
+      "colors": ["Beige", "Light Gray", "Maroon"],
+      "image": "images/Soft Chiffon Hijab.jpg",
+      "description": "Elegant and lightweight chiffon hijab, perfect for any style."
+    },
+    {
+      "id": 6,
+      "name": "Casual Denim Jacket",
+      "category": "Unisex",
+      "price": 210.00,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Blue", "Light Blue"],
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?fit=crop&w=800&q=80",
+      "description": "Classic denim jacket suitable for all seasons."
+    },
+    {
+      "id": 7,
+      "name": "Men's Formal Shirt",
+      "category": "Men",
+      "price": 120.00,
+      "sizes": ["M", "L", "XL"],
+      "colors": ["White", "Light Blue"],
+      "image": "images/Men's Formal Shirt.jpg",
+      "description": "Elegant formal shirt, perfect for office and formal events."
+    },
+    {
+      "id": 8,
+      "name": "Women's Blouse",
+      "category": "Women",
+      "price": 95.00,
+      "sizes": ["S", "M", "L"],
+      "colors": ["White", "Pink", "Green"],
+      "image": "images/Women's Blouse.jpg",
+      "description": "Stylish blouse suitable for casual and semi-formal occasions."
+    },
+    {
+      "id": 9,
+      "name": "Unisex Sweatpants",
+      "category": "Unisex",
+      "price": 85.00,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Gray", "Black"],
+      "image": "images/Unisex Sweatpants.jpg",
+      "description": "Comfortable sweatpants for everyday wear."
+    },
+    {
+      "id": 10,
+      "name": "Men's Leather Jacket",
+      "category": "Men",
+      "price": 350.00,
+      "sizes": ["M", "L", "XL"],
+      "colors": ["Black", "Brown"],
+      "image": "images/Men's Leather Jacket.jpg",
+      "description": "Premium leather jacket for a rugged look."
+    },
+    {
+      "id": 11,
+      "name": "Women's Maxi Dress",
+      "category": "Women",
+      "price": 180.00,
+      "sizes": ["S", "M", "L"],
+      "colors": ["Red", "Blue", "Green"],
+      "image": "images/Women's Maxi Dress.jpg",
+      "description": "Flowy maxi dress perfect for summer events."
+    },
+    {
+      "id": 12,
+      "name": "Unisex Graphic T-Shirt",
+      "category": "Unisex",
+      "price": 70.00,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["White", "Black"],
+      "image": "images/Unisex Graphic T-Shirt.jpg",
+      "description": "Trendy graphic tee for casual wear."
+    },
+    {
+      "id": 13,
+      "name": "Men's Chinos",
+      "category": "Men",
+      "price": 110.00,
+      "sizes": [30, 32, 34, 36],
+      "colors": ["Beige", "Navy"],
+      "image": "images/Men's Chinos.jpg",
+      "description": "Comfortable and stylish chinos for daily wear."
+    },
+    {
+      "id": 14,
+      "name": "Kids Cartoon Hoodie",
+      "category": "Kids",
+      "price": 99.99,
+      "sizes": ["S", "M", "L"],
+      "colors": ["Yellow", "Blue", "Green"],
+      "image": "images/Kids Cartoon Hoodie.jpg",
+      "description": "Soft and colorful hoodie with fun cartoon prints for kids."
+    },
+    {
+      "id": 15,
+      "name": "Leather Handbag",
+      "category": "Accessories",
+      "price": 275.00,
+      "sizes": ["One Size"],
+      "colors": ["Brown", "Black", "Beige"],
+      "image": "images/Leather Handbag.jpg",
+      "description": "Elegant genuine leather handbag perfect for everyday use."
+    },
+    {
+      "id": 16,
+      "name": "Sports Running Shoes",
+      "category": "Unisex",
+      "price": 190.00,
+      "sizes": [38, 39, 40, 41, 42, 43],
+      "colors": ["Gray", "Red", "Black"],
+      "image": "images/Sports Running Shoes.jpg",
+      "description": "Breathable and durable shoes designed for runners and athletes."
+    },
+    {
+      "id": 17,
+      "name": "Women's Knitted Sweater",
+      "category": "Women",
+      "price": 135.50,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Cream", "Rose", "Brown"],
+      "image": "images/Women's Knitted Sweater.jpg",
+      "description": "Warm and stylish knitted sweater for cozy winter days."
+    },
+    {
+      "id": 18,
+      "name": "Men's Cargo Pants",
+      "category": "Men",
+      "price": 140.00,
+      "sizes": [30, 32, 34, 36],
+      "colors": ["Olive", "Black", "Gray"],
+      "image": "images/Men's Cargo Pants.jpg",
+      "description": "Durable and comfortable cargo pants with multiple pockets."
+    },
+    {
+      "id": 19,
+      "name": "Silk Scarf",
+      "category": "Accessories",
+      "price": 89.99,
+      "sizes": ["One Size"],
+      "colors": ["Red", "White", "Navy"],
+      "image": "images/Silk Scarf.jpg",
+      "description": "Elegant silk scarf to complement your outfit."
+    },
+    {
+      "id": 20,
+      "name": "Baby Romper Set",
+      "category": "Kids",
+      "price": 75.00,
+      "sizes": ["0-3M", "3-6M", "6-12M"],
+      "colors": ["White", "Blue", "Pink"],
+      "image": "images/Baby Romper Set.jpg",
+      "description": "Cute and comfy baby romper made of organic cotton."
+    },
+     {
+      "id": 21,
+      "name": "Men's Sport Jacket",
+      "category": "Men",
+      "price": 220.00,
+      "sizes": ["M", "L", "XL"],
+      "colors": ["Black", "Charcoal", "Blue"],
+      "image": "images/Men's Sport Jacket.jpg",
+      "description": "Lightweight and breathable sport jacket for outdoor activities."
+    },
+    {
+      "id": 22,
+      "name": "Women's Leather Boots",
+      "category": "Women",
+      "price": 250.00,
+      "sizes": [36, 37, 38, 39, 40],
+      "colors": ["Black", "Brown"],
+      "image": "images/Women's Leather Boots.jpg",
+      "description": "Stylish leather boots perfect for both casual and formal outfits."
+    },
+    {
+      "id": 23,
+      "name": "Unisex Raincoat",
+      "category": "Unisex",
+      "price": 130.00,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Yellow", "Green", "Blue"],
+      "image": "images/Unisex Raincoat.jpg",
+      "description": "Durable and waterproof raincoat for all-weather protection."
+    },
+    {
+      "id": 24,
+      "name": "Men's Running Shorts",
+      "category": "Men",
+      "price": 60.00,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "Gray", "Red"],
+      "image": "images/Men's Running Shorts.jpg",
+      "description": "Lightweight and breathable running shorts designed for athletes."
+    },
+    {
+      "id": 25,
+      "name": "Women's Crossbody Bag",
+      "category": "Accessories",
+      "price": 180.00,
+      "sizes": ["One Size"],
+      "colors": ["Black", "Beige", "Gray"],
+      "image": "images/Women's Crossbody Bag.jpg",
+      "description": "Trendy crossbody bag for daily use, with multiple compartments."
+    },
+    {
+      "id": 26,
+      "name": "Men's Casual Sneakers",
+      "category": "Men",
+      "price": 120.00,
+      "sizes": [40, 41, 42, 43],
+      "colors": ["White", "Gray", "Black"],
+      "image": "images/Men's Casual Sneakers.jpg",
+      "description": "Stylish and comfortable sneakers suitable for casual wear."
+    },
+    {
+      "id": 27,
+      "name": "Women's Party Heels",
+      "category": "Women",
+      "price": 160.00,
+      "sizes": [36, 37, 38, 39],
+      "colors": ["Black", "Red", "Gold"],
+      "image": "images/Women's Party Heels.jpg",
+      "description": "Elegant high heels perfect for parties and formal events."
+    },
+    {
+      "id": 28,
+      "name": "Unisex Sweatshirt",
+      "category": "Unisex",
+      "price": 80.00,
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Gray", "Black", "Navy"],
+      "image": "images/Unisex Sweatshirt.jpg",
+      "description": "Comfortable and soft sweatshirt ideal for casual wear."
+    },
+    {
+      "id": 29,
+      "name": "Women's Casual Flats",
+      "category": "Women",
+      "price": 90.00,
+      "sizes": [36, 37, 38, 39],
+      "colors": ["Beige", "Pink", "Black"],
+      "image": "images/Women's Casual Flats.jpg",
+      "description": "Stylish and comfortable flats perfect for everyday wear."
+    },
+    {
+      "id": 30,
+      "name": "Men's Classic Watch",
+      "category": "Accessories",
+      "price": 350.00,
+      "sizes": ["One Size"],
+      "colors": ["Silver", "Black", "Gold"],
+      "image": "images/Men's Classic Watch.jpg",
+      "description": "Elegant classic watch with a leather strap for formal occasions."
+    }
+    
+  ]
+}
+ 

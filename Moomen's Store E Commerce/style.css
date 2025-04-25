@@ -1,0 +1,64 @@
+#register-section, #login-section {
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/slider-1.jpg");
+    border-radius: 20px;
+}
+
+body {
+    background-color: darkgray;
+}
+
+h2{
+    font-size: 2em;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+
+}
+.form-control{
+    width: 100%;
+    border-radius: 50px;
+    text-align: start;
+    /* padding: 40px; */
+    padding-left: 30px;
+    color: aliceblue;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); 
+    padding-bottom: 10px;
+}
+.icons{
+    position: absolute; 
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    color: darkgray;
+}
+.emailicon{
+    position: absolute; 
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    color: darkgray;
+}
+span{
+    font-size: .9em;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); 
+}
+
+
+#button{
+    height: 35px;
+    width: 100%;
+    border-radius: 50px;
+    
+}
+.login_body{
+    background-color: darkgray;
+
+}
+
