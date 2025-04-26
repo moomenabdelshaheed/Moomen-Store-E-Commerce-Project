@@ -50,7 +50,7 @@ notification_badge.style.display = "block";
 notification_badge.innerText = `${cart.length}`;
 
 function logout() {
-  window.location.href = "Login.html";
+  window.location.href = "index.html";
 }
 
 var chosenCategory = "products";
