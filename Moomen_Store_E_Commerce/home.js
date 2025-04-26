@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const toggleBtn = document.querySelector('.navbar-toggler');
-  const navbarMenu = document.getElementById('navbarNavAltMarkup');
+  const toggleBtn = document.querySelector(".navbar-toggler");
+  const navbarMenu = document.getElementById("navbarNavAltMarkup");
 
-  toggleBtn.addEventListener('click', function () {
-    navbarMenu.classList.toggle('show');
+  toggleBtn.addEventListener("click", function () {
+    navbarMenu.classList.toggle("show");
   });
 });
 var slideIndex = 0;
@@ -50,7 +50,7 @@ notification_badge.style.display = "block";
 notification_badge.innerText = `${cart.length}`;
 
 function logout() {
-  window.location.href = "index.html";
+  window.location.href = "../index.html";
 }
 
 var chosenCategory = "products";
@@ -216,7 +216,7 @@ window.onload = function () {
 function ContactUs() {
   console.log("Contact Us clicked");
   window.scrollTo({
-    top: document.body.scrollHeight,  
+    top: document.body.scrollHeight,
     behavior: "smooth",
   });
 }

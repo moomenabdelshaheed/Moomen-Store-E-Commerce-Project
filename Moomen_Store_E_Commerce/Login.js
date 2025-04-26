@@ -21,5 +21,5 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
     passvalid.style.color = "red";
     return;
   }
-  window.location.href = "home.html"; 
+  window.location.replace("./Moomen_Store_E_Commerce/home.html");
 });
