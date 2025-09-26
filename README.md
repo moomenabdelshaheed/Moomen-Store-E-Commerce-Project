@@ -2,7 +2,6 @@
 
 **Moomen Store** is a responsive front-end e-commerce template / demo showcasing an online store UI built with HTML, CSS and JavaScript.
 
-> **Repository:** [Moomen-Store-E-Commerce-Project](https://github.com/moomenabdelshaheed/Moomen-Store-E-Commerce-Project)
 > **Live Demo:** [Moomen-Store-E-Commerce-Project](https://moomenabdelshaheed.github.io/Moomen-Store-E-Commerce-Project)
 
 
