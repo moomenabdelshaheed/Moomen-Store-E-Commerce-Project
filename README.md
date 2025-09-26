@@ -4,6 +4,11 @@
 
 > **Live Demo:** [Moomen-Store-E-Commerce-Project](https://moomenabdelshaheed.github.io/Moomen-Store-E-Commerce-Project)
 
+![Homepage Preview](assets/screenshot1.png)
+![Homepage Items](assets/screenshot3.png)
+![Cart Demo](assets/screenshot2.png)
+
+
 
 ---
 
